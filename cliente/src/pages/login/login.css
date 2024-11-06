@@ -1,0 +1,100 @@
+/* Contenedor principal de login */
+.login-form, .contenedor {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+/* Título del formulario */
+.login-form h2 {
+    text-align: center;
+    color: #2e0629;
+    font-size: 30px;
+    padding: 50px 0 20px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Estilo de inputs */
+.login-form input[type="password"],
+.login-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.login-form input[type="password"]:focus,
+.login-form input[type="text"]:focus {
+    outline: none;
+    border-color: rgb(42, 116, 226);
+    box-shadow: 0 0 5px rgba(42, 116, 226, 0.3);
+}
+
+/* Botón de Login */
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(42, 116, 226);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover,
+.btn-login:active {
+    color: white;
+    background-color: #0d47a1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(42, 116, 226, 0.25);
+}
+
+/* Botón de Registro */
+.btn-register {
+    width: 100%;
+    padding: 15px;
+    background-color: gray;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-register:hover,
+.btn-register:active {
+    color: white;
+    background-color: #10b981;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-register:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
+}

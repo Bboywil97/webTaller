@@ -1,0 +1,33 @@
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product .description, .product .descripcion {
+  margin: 10px 0;
+}
+
+.addToCartBttn {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.addToCartBttn:hover {
+  background-color: #005f73;
+}

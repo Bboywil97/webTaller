@@ -1,0 +1,122 @@
+/* Contenedor principal del formulario de registro */
+.register-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 20px 60px;
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left !important;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Título del formulario */
+.register-form h2 {
+    color: #2e0629;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Estilo de inputs */
+.register-form input[type="password"],
+.register-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.register-form input[type="password"]:focus,
+.register-form input[type="text"]:focus {
+    outline: none;
+    border-color: #1d4ed8;
+    box-shadow: 0 0 5px rgba(29, 78, 216, 0.3);
+}
+
+/* Botón de Cancelar */
+.btn-cancel {
+    width: 48%;
+    padding: 15px;
+    background-color: #9ca3af;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-cancel:hover,
+.btn-cancel:active {
+    background-color: #6b7280;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-cancel:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(107, 114, 128, 0.3);
+}
+
+/* Botón de Guardar */
+.btn-save {
+    width: 48%;
+    padding: 15px;
+    background-color: #1d4ed8;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-save:hover,
+.btn-save:active {
+    background-color: #0c3078;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-save:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(12, 48, 120, 0.3);
+}
+/* Estilo de inputs */
+.register-form input[type="password"],
+.register-form input[type="text"],
+.register-form input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.register-form input[type="password"]:focus,
+.register-form input[type="text"]:focus,
+.register-form input[type="email"]:focus {
+    outline: none;
+    border-color: #1d4ed8;
+    box-shadow: 0 0 5px rgba(29, 78, 216, 0.3);
+}
